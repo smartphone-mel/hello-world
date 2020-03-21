@@ -1,4 +1,2 @@
 # hello-world
-I think that it doesn't need explains... 
-
-And I try to edit in another branch!
+The spirit of this project is for simple tests.
