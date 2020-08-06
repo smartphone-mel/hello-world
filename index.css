@@ -4,16 +4,33 @@
 	body { background-color: #EEE; }
 }
 
-/* iPhone 5 */
-@media screen and (device-aspect-ratio: 40 / 71) {
+/* iPhone 5/5S */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
 	body { background-color: #EEE; }
 }
 
-/* Safari */
-@media not all and (min-resolution:0.001dpcm) {
-	@supports (-webkit-appearance:none) {
-		.hHeading { color:#5A5 !important; }
-	}
- }
+/* iPhone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	body { background-color: #EEE; }
+}
+
+/* iPhone + 6/7/8 */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+	body { background-color: #EEE; }
+}
+
+/* iPhone X */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+	body { background-color: #EEE; }
+}
 
 .sFooter { color: #777; }
