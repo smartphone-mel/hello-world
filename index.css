@@ -1,5 +1,9 @@
 @media not all and (min-resolution:0.001dpcm) {
-  @supports (-webkit-appearance:none) {
+	@supports (-webkit-appearance:none) {
 		.hHeading { color:#55AA55; }
 	}
  }
+
+.sFooter {
+	color: #777777;
+}
