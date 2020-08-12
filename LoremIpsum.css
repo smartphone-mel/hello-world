@@ -1,4 +1,5 @@
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 599px)
+and (min-device-width: 600px){
 	body {
 		background-color:#90EE90;
 	}
