@@ -1,6 +1,6 @@
 @media only screen and (max-width: 599px) {
 	body {
-		background-color: #ADD8E6;
+		background-color:#ADD8E6;
 	}
 }
 
@@ -22,4 +22,8 @@ h4
 	padding-right:8px;
 }
 
-span { color: #777; }
+span
+{
+	color: #777;
+	text-align:center;
+}
