@@ -1,3 +1,9 @@
+@media only screen and (max-width: 599px) {
+	body {
+		background-color: #ADD8E6;
+	}
+}
+
 div
 {
 	width:100%;
@@ -12,4 +18,8 @@ h4
 {
 	background-color:#D5D5D5;
 	color:#FF5733;
+	padding-left:8px;
+	padding-right:8px;
 }
+
+span { color: #777; }
