@@ -1,0 +1,21 @@
+e-Commerce and Distributed Systems
+
+Business Models (Modelos de Negocios):
+ - eShop (Venta de Productos por WebPages)
+ - eAuction (Subastas Onlines)
+ - eProcurement (Compra y Venta Online de Suministros, Ofertas de Trabajo y Servicios B2B, B2C o B2G)
+   . B2B (business-to-business)
+   . B2C (business-to-consumer)
+   . B2G (Business-to-government)
+ - eMall (Catalogos o Cartera Online de eShops)
+ - Virtual Communities (WebSite de Compra y Venta con Feedback o Interaccion con Clientes/Proveedores)
+ - Third Party Marketplaces (Websites que ofrecen acceso al Cliente a Empresas Relacionadas a su Busqueda)
+ - Information Brokerage (Websites que ofrecen acceso a Información, del Negocio)
+ - Trust Brokerage (Services Conectados con Seguridad o de Confianza a Empresas)
+ - Collaboration Platforms (Plataformas Online para compartir Información del Negocio a Gran Escala)
+ - Portals (Websites de Coleccion de Catalogos Mucha Informacion, Vertical u Horizontal)
+ - Dynamic Pricing (Precios como Variables y permite la Comparativa o Negociacion Online)
+ - BTB Exchanges (WebPages, o Coleccion, facilitan Transacciones de Empresa a Empresa)
+ - Online Trading (Facilita Informacion y Transacciones Financieras de manera Online, Day Trading)
+ - eLearning (Plataformas Online de Aprendizaje)
+ - Free Products and Services (WebPages de Rifas o Descuentos Gratuitos; Software Gratuito)
