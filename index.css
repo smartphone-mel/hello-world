@@ -33,4 +33,22 @@ and (-webkit-device-pixel-ratio : 3) {
 	body { background-color: #EEE; }
 }
 
+body {
+	font-family: Sans-serif;
+}
+
+body * {
+	padding-left: 8px;
+}
+@media only screen and (min-width : 540px) {
+	body * {
+		padding-left: 16px;
+	}
+}
+@media only screen and (min-width : 1140px) {
+	body * {
+		padding-left: calc(16px + 8px);
+	}
+}
+
 .sFooter { color: #777; }

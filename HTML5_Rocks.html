@@ -1,6 +1,35 @@
 <html>
   <header>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 Rocks!</title>
+	<style>
+	  body {
+		font-family: Sans-serif;
+	  }
+	  header *,
+	  main *,
+	  footer * {
+		padding-left: 8px;
+		padding-right: 8px;
+	  }
+	  @media only screen and (min-width : 540px) {
+		header *,
+		main *,
+		footer * {
+		  padding-left: 16px;
+		  padding-right: 16px;
+		}
+	  }
+	  @media only screen and (min-width : 1140px) {
+		header *,
+		main *,
+		footer * {
+		  padding-left: calc(16px + 8px);
+		  padding-right: calc(16px + 8px);
+		}
+	  }
+	</style>
   </header>
   <body>
     <header>
