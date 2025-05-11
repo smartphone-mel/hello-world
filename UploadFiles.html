@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Upload File Test</title>
+	<style>
+		body {
+			padding: 8px;
+			max-width: 680px;
+			border: 2px gray dashed;
+			font-family: Sans-serif;
+		}
+		input {
+			box-sizing: border-box;
+			max-width: -moz-available;         /* WebKit-based browsers will ignore this. */
+			max-width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+			max-width: stretch;
+		}
+	</style>
+</head>
+<body>
+	<h1>HTML Upload File Test</h1>
+	<a href="./index.html">Return to Home</a>
+	<br /><br />
+	<input type="file" id="iFile" />
+	<br /><br />
+	<button onclick="getFile()">Subir Archivos</button>
+	
+	<script>
+		function getFile() {
+			let fileVar = document.getElementById("iFile").files[0];  // A file from input!
+			console.log(fileVar);
+			if (fileVar)
+				alert(`file-name: ${fileVar?.name}
+file-type: ${fileVar?.type}
+file-size: ${fileVar?.size}`);
+			else
+				alert('(sin datos)');
+
+			/*let req = new XMLHttpRequest();
+			let formData = new FormData();
+
+			formData.append("new_file", fileVar);
+			req.open("POST", '/uploads');
+			req.send(formData);*/
+		}
+	</script>
+</body>
+</html>
