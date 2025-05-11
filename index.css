@@ -6,29 +6,29 @@
 
 /* iPhone 5/5S */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
+and (min-device-width: 320px) 
+and (max-device-width: 568px) {
 	body { background-color: #EEE; }
 }
 
 /* iPhone 6/7/8 */
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
+and (min-device-width: 375px) 
+and (max-device-width: 667px) {
 	body { background-color: #EEE; }
 }
 
 /* iPhone + 6/7/8 */
 @media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
+and (min-device-width: 414px) 
+and (max-device-width: 736px) {
 	body { background-color: #EEE; }
 }
 
 /* iPhone X */
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
+and (min-device-width: 375px) 
+and (max-device-width: 812px)
 and (-webkit-device-pixel-ratio : 3) {
 	body { background-color: #EEE; }
 }
@@ -37,16 +37,19 @@ body {
 	font-family: Sans-serif;
 }
 
-body * {
+body>*,
+body>nav>* {
 	padding-left: 8px;
 }
-@media only screen and (min-width : 540px) {
-	body * {
+@media only screen and (min-width: 540px) {
+	body>*,
+	body>nav>* {
 		padding-left: 16px;
 	}
 }
-@media only screen and (min-width : 1140px) {
-	body * {
+@media only screen and (min-width: 1140px) {
+	body>*,
+	body>nav>* {
 		padding-left: calc(16px + 8px);
 	}
 }
