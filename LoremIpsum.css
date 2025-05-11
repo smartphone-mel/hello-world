@@ -23,10 +23,11 @@ div>div {
 	margin:0 auto;
 	max-width:960px;
 	flex-flow:wrap;
-	justify-content:space-evenly;
+	/*justify-content:space-evenly;*/
+	text-align: left;
 }
 div>div>a {
-	margin-left: 4px;
+	margin-left: 16px;
 }
 
 h4
