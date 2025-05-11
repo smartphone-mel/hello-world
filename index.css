@@ -51,4 +51,9 @@ body * {
 	}
 }
 
+nav {
+	display: flex;
+	flex-flow: wrap;
+}
+
 .sFooter { color: #777; }

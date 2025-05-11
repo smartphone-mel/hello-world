@@ -13,7 +13,7 @@
 		padding-left: 8px;
 		padding-right: 8px;
 	  }
-	  @media only screen and (min-width : 540px) {
+	  @media only screen and (min-width: 540px) {
 		header *,
 		main *,
 		footer * {
@@ -21,13 +21,36 @@
 		  padding-right: 16px;
 		}
 	  }
-	  @media only screen and (min-width : 1140px) {
+	  @media only screen and (min-width: 1140px) {
 		header *,
 		main *,
 		footer * {
 		  padding-left: calc(16px + 8px);
 		  padding-right: calc(16px + 8px);
 		}
+	  }
+	  header>div {
+		display: flex;
+		flex-flow: wrap;
+	  }
+	  figure {
+		text-align: center;
+	  }
+	  @media only screen and (max-width: 440px) {
+		figure>img {
+		  width: 200px;
+		}
+	  }
+	  @media only screen and (max-width: 340px) {
+		figure>img {
+		  width: 150px;
+		}
+	  }
+	  section {
+		text-align: center;
+	  }
+	  footer {
+		text-align:right;
 	  }
 	</style>
   </header>
@@ -37,16 +60,21 @@
 	  <nav>
 	    <h3>&nbsp;.&nbsp;Main</h3>
 	  </nav>
+	  <div>
+		<a href="./index.html">Home</a>
+		<a href="./LoremIpsum.html">Lorem Ipsum!</a>
+		<a href="./evie-template/index.html">Evie Template</a>
+	  </div>
 	  <hr />
 	</header>
 	<main>
 	  <h2>Awesome structure!</h2>
-	  <figure style="text-align:center;">
-	    <img src="Logo_HTML5.png" />
+	  <figure>
+	    <img src="./Logo_HTML5.png" />
 		<figcaption>Figure</figcaption>
 	  </figure>
 	  <br />
-	  <section style="text-align:center;">
+	  <section>
 	    <article>
 		  <h3>Article</h3>
 		  <span>Content of this Article.</span>
@@ -58,7 +86,7 @@
 		</aside>
 	  </section>
 	</main>
-	<footer style="text-align:right;">
+	<footer>
 	  <hr />
 	  <span>Footer content of this page.</span>
 	</footer>
